@@ -1,0 +1,28 @@
+{
+  "name": "node-red-contrib-nodemailer-adapter",
+  "version": "1.0.0",
+  "description": "Node-RED nodes to send emails by nodemailer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tree-soft/node-red-contrib-nodemailer-adapter.git"
+  },
+  "keywords": [
+    "node-red",
+    "email",
+    "nodemailer",
+    "smtp"
+  ],
+  "author": {
+    "name": "Stanislav Bogdanov",
+    "email": "sgbogdanov@yandex.ru"
+  },
+  "node-red": {
+    "nodes": {
+      "mailer": "nodemailer-adapter.js"
+    }
+  },
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^4.4.2"
+  }
+}
